@@ -1,0 +1,75 @@
+* {
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+
+img {
+
+    width: 220px;
+
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: rgba(0, 0, 0, 0.274);
+    width: 450px;
+    height: 170px;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 210, 1);
+    font-size: 75px;
+    box-shadow: 5px 6px 6px rgba(255, 255, 255, 0.774);
+}
+
+.clock #doublePoint {
+    font-size: 35px;
+}
+
+.clock div {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3px;
+
+}
+
+.clock #time {
+    font-size: 15px;
+}
+
+.night {
+    background: url('../img/praiaNoite.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.afternoon {
+    background: url('../img/praiaTarde.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.moorning {
+    background: url('../img/praiaManha.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
